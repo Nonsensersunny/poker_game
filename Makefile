@@ -34,3 +34,6 @@ server:
 
 client:
 	@$(GORUN) $(ENTRY) --service=client
+
+auth:
+	@travis encrypt -r ngtuna/kubeless --org
