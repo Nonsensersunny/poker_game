@@ -36,4 +36,4 @@ client:
 	@$(GORUN) $(ENTRY) --service=client
 
 auth:
-	@travis encrypt -r ngtuna/kubeless --org
+	@travis encrypt -r Nonsensersunny/poker_game --com
