@@ -35,5 +35,5 @@ server:
 client:
 	@$(GORUN) $(ENTRY) --service=client
 
-auth:
+travis-auth:
 	@travis encrypt -r Nonsensersunny/poker_game --com

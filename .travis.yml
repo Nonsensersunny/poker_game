@@ -13,7 +13,7 @@ deploy:
   provider: releases
   overwrite: true
   api_key:
-    secure: "QM9Zr1mjgBegeyZgHWsbPoU4l8La2M196zq/v3GA6UF/JHjBtDZJx8tmSTp63z2W5jLlWzwUMGpIA2c2RIY2xQFp4Gjlv5G74LK/DDKx8KLthw/mGjkOgnBdx6xgjmM3rVkTUdg804Mvl/qG9QOkpoiB8jpb6tKyuoJlTSSTGnOYEVFOocX9zEFkFk+2iL2h9zYskWWFmbKL90pMdoBqIb19SHQaBTp2GzvemZ40SoC9JpiGwO7q3TthSjhYwyQ8dBG2ygojRhUpv8/Br0gZbj7Rqjk5Ymnyv8u3KhGDh27Bzeo59T4xL+Z39dG22YK41f13VOHFJixnK1PqRjsLVuxcgGXkp0hp3xVJXS0lVAV0HwXTcXuWe2A1wwDMdYjJHiC3tiqfBHE6KNxKf4sWzH2sQAUcoJ4ZG8s+wTRuUUS0bTroG5Lyxxh6flLOZt5rk7G+hjwOhGKpTxVkkeNnYrcnJ0gJwnrC+tdjFsCkaj0LR8Mbm6s8nCWHkmWhVDBKoek46cqU1yLIFRS7ed3Y3W8Ux6NqqpB4r1ZzUjpTkHnvuygVfJ02APNwugzznAmnDMVo8uZb8TvBUCMU/nZZBhlDf3aO4ygG+TWAp6NZF/seiRBwFEE7Lfj5MNjtwAs3AscVdgWsTJ431RiSOdqoRD75OYb61uDJUuo7/4lEwok="
+    secure: $GITHUB_TOKEN
   file:
     - bin/poker-mac
     - bin/poker
